@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+result = os.path.isdir('insert directory here')
+if result == True:
+    sys.stdout.write("Success\n")
+else:
+    sys.stdout.write("Error\n")
