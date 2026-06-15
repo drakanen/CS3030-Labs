@@ -1,0 +1,5 @@
+2024-01-15 09:02,AuthenticationError,Invalid session token
+2024-01-15 09:46,TimeoutError,Connection timed out after 30s
+2024-01-15 10:13,PermissionError,Insufficient privileges for /admin
+2024-01-15 11:31,DatabaseError,Table 'users' not found
+2024-01-15 13:17,NullPointerError,Referenced object has no value

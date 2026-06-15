@@ -1,0 +1,16 @@
+192.168.1.10 [2024-01-15 08:23] INFO User login successful
+192.168.1.10 [2024-01-15 08:24] INFO Accessing /dashboard
+192.168.32.5 [2024-01-15 09:01] INFO User login successful
+192.168.32.5 [2024-01-15 09:02] ERROR AuthenticationError: Invalid session token
+192.168.0.1  [2024-01-15 09:45] INFO File upload initiated
+192.168.0.1  [2024-01-15 09:46] ERROR TimeoutError: Connection timed out after 30s
+192.168.1.22 [2024-01-15 10:12] INFO User login successful
+192.168.1.22 [2024-01-15 10:13] INFO Accessing /admin
+192.168.1.22 [2024-01-15 10:13] ERROR PermissionError: Insufficient privileges for /admin
+192.168.4.8  [2024-01-15 11:30] INFO Database query executed
+192.168.4.8  [2024-01-15 11:31] ERROR DatabaseError: Table 'users' not found
+192.168.4.8  [2024-01-15 11:32] INFO Retrying connection...
+10.0.0.2     [2024-01-15 12:00] INFO Scheduled backup started
+10.0.0.2     [2024-01-15 12:05] INFO Scheduled backup completed
+10.0.0.55    [2024-01-15 13:17] ERROR NullPointerError: Referenced object has no value
+10.0.0.55    [2024-01-15 13:18] INFO Restarting service...
