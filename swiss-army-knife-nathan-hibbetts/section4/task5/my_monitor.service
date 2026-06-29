@@ -1,0 +1,12 @@
+[Unit]
+Description=System Resource Monitor
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 -u /home/nathan/Desktop/CS3030/CS3030-Labs/swiss-army-knife-nathan-hibbetts/section4/task1/monitor.py
+User=nathan
+
+[Install]
+WantedBy=multi-user.target
